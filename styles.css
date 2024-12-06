@@ -144,7 +144,42 @@ p {
   background: #218838;
 }
 
+/* Contact Section */
+.contact {
+  padding: 2em;
+  background: #28a745;
+  color: white;
+  text-align: center;
+}
 
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: white;
+  color: #28a745;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
 
 * Navbar Styles */
 .navbar {
