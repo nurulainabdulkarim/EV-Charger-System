@@ -1,3 +1,85 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+/* Features Section */
+.features {
+  padding: 2em;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 1em;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+  margin-top: 0.5em;
+}
+
 /* Features Section */
 .features {
   padding: 2em;
