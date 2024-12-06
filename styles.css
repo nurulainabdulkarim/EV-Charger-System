@@ -1,3 +1,33 @@
+/* Hero Section */
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+
+
 * Navbar Styles */
 .navbar {
   display: flex;
