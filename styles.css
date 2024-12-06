@@ -1,3 +1,39 @@
+/* Features Section */
+.features {
+  padding: 2em;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 1em;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card h3 {
+  margin-top: 0.5em;
+}
+
+
 /* Hero Section */
 .hero {
   background: url('images/hero-bg.jpg') no-repeat center center/cover;
