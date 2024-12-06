@@ -21,7 +21,7 @@ p {
 
 /* Hero Section */
 .hero {
-  background: url('https://www.topgear.com/sites/default/files/2024/02/ioniq5n.jpeg') no-repeat center center/cover;
+  background: url('img') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
